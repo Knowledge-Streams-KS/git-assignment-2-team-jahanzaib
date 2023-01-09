@@ -1,4 +1,5 @@
 #include<iostream>
+#include "multiply.h"
 using namespace std;
 
 void main()
