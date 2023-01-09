@@ -1,10 +1,11 @@
 #include<iostream>
+#include"subtraction.h"
 using namespace std;
 
 void main()
 {
     cout<<"Creating a calculator"<<endl;
-    int a,b,opt;
+    int a,b,opt,ans;
     cout<<"Enter First number";
     cin >> a;
     cout<<"Enter Second number";
@@ -20,25 +21,25 @@ void main()
     cout<<"Enter your option : ";
     cin>>opt;
 
-    if(opt==1)
+    if(opt==1)//Addition
     {
 
     }
-    else if(opt==2)
+    else if(opt==2)//Subtraction
     {
         
     }
-    else if(opt==3)
+    else if(opt==3)//Multiplication
     {
         
     }
-    else if(opt==4)
+    else if(opt==4)//Divion
     {
         
     }
-    else if(opt==5)
+    else if(opt==5)//Modulus
     {
         
     }
-    else if(opt==6)
+    else if(opt==6)//Square Root
 }
