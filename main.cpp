@@ -5,12 +5,12 @@ void main()
 {
     cout<<"Creating a calculator"<<endl;
     int a,b,opt;
-    cout << "Enter Furst number";
+    cout<<"Enter First number";
     cin >> a;
-    cout << "Enter Furst number";
+    cout<<"Enter Second number";
     cin >> b;
 
-    cout << "Select Option: "<<endl;
+    cout<<"Select Option: "<<endl;
     cout<<"1. Addition"<<endl;
     cout<<"2. Subtraction"<<endl;
     cout<<"3. Multiplication"<<endl;
