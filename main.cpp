@@ -1,4 +1,5 @@
 #include<iostream>
+#include"division.h"
 using namespace std;
 
 void main()
@@ -34,7 +35,7 @@ void main()
     }
     else if(opt==4)
     {
-        
+        division(a,b);
     }
     else if(opt==5)
     {
