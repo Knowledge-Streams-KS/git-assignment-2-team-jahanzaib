@@ -1,9 +1,10 @@
 #include<iostream>
 #include"addition.h"
-using namespace std;
 #include"division.h"
 #include"multiply.h"
 #include"squareroot.h"
+
+using namespace std;
 
 void main()
 {
