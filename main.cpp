@@ -1,6 +1,8 @@
 #include<iostream>
-#include "multiply.h"
 using namespace std;
+#include"division.h"
+#include"multiply.h"
+#include"squareroot.h"
 
 void main()
 {
@@ -35,7 +37,7 @@ void main()
     }
     else if(opt==4)
     {
-        
+        division(a,b);
     }
     else if(opt==5)
     {
