@@ -1,4 +1,5 @@
 #include<iostream>
+#include"addition.h"
 using namespace std;
 
 void main()
@@ -22,7 +23,7 @@ void main()
 
     if(opt==1)
     {
-
+     addition(a,b);
     }
     else if(opt==2)
     {
