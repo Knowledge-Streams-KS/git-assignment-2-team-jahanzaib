@@ -1,11 +1,16 @@
 #include<iostream>
 #include"subtraction.h"
+#include"addition.h"
+#include"division.h"
+#include"multiply.h"
+#include"squareroot.h"
+
 using namespace std;
 
 void main()
 {
     cout<<"Creating a calculator"<<endl<<endl;
-    int a,b,opt,ans;
+    int a,b,opt;
 
     cout<<"Select Option: "<<endl;
     cout<<"1. Addition"<<endl;
@@ -24,7 +29,7 @@ void main()
         cin >> a;
         cout<<"Enter Second number : ";
         cin >> b;
-
+        cout<<a<<" + "<<b<<" = "<<addition(a,b)<<endl;
     }
     else if(opt==2)//Subtraction
     {
@@ -32,7 +37,14 @@ void main()
         cin >> a;
         cout<<"Enter Second number : ";
         cin >> b;
-        cout<<a<<" - "<<b<<" = "<<subtraction(a,b)<<endl;
+        if(a>b)
+        {
+            cout<<a<<" - "<<b<<" = "<<subtraction(a,b)<<endl;
+        }
+        else
+        {
+            cout<<b<<" - "<<a<<" = "<<subtraction(a,b)<<endl;
+        }
     }
     else if(opt==3)//Multiplication
     {
@@ -48,6 +60,7 @@ void main()
         cin >> a;
         cout<<"Enter Second number : ";
         cin >> b;
+        cout<<a<<" / "<<b<<" = "<<division(a,b)<<endl;
         
     }
     else if(opt==5)//Modulus
@@ -56,7 +69,6 @@ void main()
         cin >> a;
         cout<<"Enter Second number : ";
         cin >> b;
-        
     }
     else if(opt==6)//Square Root
     {
