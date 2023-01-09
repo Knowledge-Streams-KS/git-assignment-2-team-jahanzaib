@@ -23,7 +23,7 @@ void main()
 
     if(opt==1)
     {
-
+     addition(a,b);
     }
     else if(opt==2)
     {
