@@ -4,6 +4,7 @@
 #include"division.h"
 #include"multiply.h"
 #include"squareroot.h"
+#include"modulus.h"
 
 using namespace std;
 
@@ -52,7 +53,7 @@ void main()
         cin >> a;
         cout<<"Enter Second number : ";
         cin >> b;
-        
+        cout<<a<<" * "<<b<<" = "<<multiply(a,b)<<endl;        
     }
     else if(opt==4)//Divion
     {    
@@ -61,7 +62,6 @@ void main()
         cout<<"Enter Second number : ";
         cin >> b;
         cout<<a<<" / "<<b<<" = "<<division(a,b)<<endl;
-        
     }
     else if(opt==5)//Modulus
     {
@@ -69,10 +69,12 @@ void main()
         cin >> a;
         cout<<"Enter Second number : ";
         cin >> b;
+        cout<<a<<" % "<<b<<" = "<<modulus(a,b)<<endl;
     }
     else if(opt==6)//Square Root
     {
         cout<<"Enter the Number for Square Root : ";
         cin>>a;
+
     }
 }
